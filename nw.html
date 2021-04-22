@@ -1,0 +1,208 @@
+<!DOCTYPE html><!--21861044김태형-->
+<html>
+    <head>
+        <title>
+            NW
+        </title>
+        <meta charset="utf-8" />
+        <style>
+        *{
+          margin: 0px auto;
+          font-family: 나눔바른고딕;
+        }
+        body{
+              background-color: black;
+          }
+        header{
+              color: whitesmoke;
+          }
+        header h3{
+              margin: 10px 10px;
+          }
+        a{
+          color: whitesmoke;
+          text-decoration: none;
+          }
+        a:hover{
+          color:#999999;
+          }
+        header h3 span{
+              font-size: 10px;
+              color: whitesmoke;
+              font-weight: 100;
+          }
+        header ul{
+              padding: 0px;
+              margin: 10px 0px;
+          }
+
+        header li{
+              float:left;
+              list-style: none;
+              padding: 0px 20px;
+              border-right:solid 1px whitesmoke;
+          }
+        header ul li:last-child{
+              border:none;
+          }
+        header>nav>ul>li>a:hover{
+              color:#999999;
+          }
+        header>nav>ul>li>a{
+          color: whitesmoke;
+          text-decoration: none;
+          }
+        img:hover {
+          transform:scale(1.05);
+          transition: transform.5s;
+          }
+          .float_left{
+              float:left;
+          }
+          .float_right{
+              float:right;
+          }
+          .clearfix::after{ /* float left 이상증상 방지*/
+              content: ""; /* 특정 브라우저 이상증상 해결용 */
+              clear: both; /* float 제거 : 양쪽(둘다) */
+              display: table; /* 특정 브라우저 이상증상 해결용 */
+          }
+          .content>section{
+              padding: 50px;
+          }
+          .content>section>div{
+              width: 1000px;
+              margin: 0px auto;
+          }
+          .content>section:nth-child(1){
+              background-color: black;
+          }
+          .content>section:nth-child(2){
+              background-color: black;
+          }
+          .content>section:nth-child(3){
+              background-color: black;
+          }
+          .content>section:nth-child(4){
+              background-color: #ec5;
+          }
+          .content>section>div>h3{
+              color: white;
+              font-size: 30px;
+          }
+          .content_part{
+              color: whitesmoke;
+              float: left;
+              width: 480px;
+              margin: 10px 10px;
+          }
+          .content-part dl{
+              margin: 0px;
+          }
+          .content_part dd{
+              margin : 0px;
+          }
+          .content_part dt{
+              font-weight: bold;
+              font-size: 19px;
+              margin: 10px 0px;
+          }
+          footer{
+              background-color: #333;
+              padding: 20px;
+              color: #888;
+              font-weight: bold;
+        }
+          footer li{
+              float: left;
+              list-style: none;
+              padding: 0px 10px;
+          }
+          /*footer ul:first-child li*/
+          #footer_left li{
+              border-right:solid 1px gray;
+          }
+          #footer_left li:last-child{
+              border: none;
+          }
+          footer ul{
+              padding: 0px;
+          }
+          .clearfix::after{ /* float left 이상증상 방지*/
+              content: ""; /* 특정 브라우저 이상증상 해결용 */
+              clear: both; /* float 제거 : 양쪽(둘다) */
+              display: table; /* 특정 브라우저 이상증상 해결용 */
+          }
+        </style>
+    </head>
+    <body>
+        <div class="wrap">
+          <header class="clearfix">
+              <!-- div, span 의미없이 공간 분할-->
+              <h3 class="float_left"> <a href="index.html">SEOUL CAFE</a></h3>
+              <nav class="float_right">
+                <ul class="clearfix">
+                  <li><a href="mid.html">MID</a></li>
+                  <li><a href="ne.html">NE</a></li>
+                  <li><a href="se.html">SE</a></li>
+                  <li><a href="nw.html">NW</a></li>
+                  <li><a href="sw.html">SW</a></li>
+                 </ul>
+              </nav>
+          </header>
+            <div class="content">
+                <section>
+                    <div class="clearfix">
+                        <h3>은평구, 서대문구</h3>
+                        <div class="content_part">
+                            <img src="cafe/person1.jpg"/>
+                            <dl>
+                                <dt>1인 1잔</dt>
+                                <dd>
+                                    서울 은평구 연서로 534 <br><br>
+                                    연신내역 3번출구에서 100m 직진후 7211
+                                </dd>
+                            </dl>
+                        </div>
+                        <div class="content_part">
+                            <img src="cafe/person2.jpg"/>
+                            <dl>
+                                <dt> ▷ 은평한옥마을 카페</dt>
+                                <dd>
+                                  #한옥 #북한선 #은평한옥마을 #풍경 <br><br>
+                                  #뷰맛집
+                                </dd>
+                            </dl>
+                        </div>
+                    </div>
+                </section>
+                <section>
+                    <div class="clearfix">
+                        <h3>마포구</h3>
+                        <div class="content_part">
+                            <img src="cafe/dear1.jpg"/>
+                            <dl>
+                                <dt>디어모먼트</dt>
+                                <dd>
+                                    서울 마포구 대흥로 80-34 2층 <br><br>
+                                    6호선 대흥역 3번 출구에서 153m
+                                </dd>
+                            </dl>
+                        </div>
+                        <div class="content_part">
+                            <img src="cafe/dear2.jpg"/>
+                            <dl>
+                                <dt> ▷ 벚꽃 명소 카페</dt>
+                                <dd>
+                                    #벚꽃 #대흥 #명소 #힐링 <br><br>
+                                    #브런치
+                                </dd>
+                            </dl>
+                        </div>
+                    </div>
+                </section>
+            </div>
+
+        </div>
+    </body>
+</html>

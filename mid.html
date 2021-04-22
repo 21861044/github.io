@@ -1,0 +1,208 @@
+<!DOCTYPE html><!--21861044김태형-->
+<html>
+    <head>
+        <title>
+            MID
+        </title>
+        <meta charset="utf-8" />
+        <style>
+        *{
+          margin: 0px auto;
+          font-family: 나눔바른고딕;
+        }
+        body{
+              background-color: black;
+          }
+        header{
+              color: whitesmoke;
+          }
+        header h3{
+              margin: 10px 10px;
+          }
+        a{
+          color: whitesmoke;
+          text-decoration: none;
+          }
+        a:hover{
+          color:#999999;
+          }
+        header h3 span{
+              font-size: 10px;
+              color: whitesmoke;
+              font-weight: 100;
+          }
+        header ul{
+              padding: 0px;
+              margin: 10px 0px;
+          }
+
+        header li{
+              float:left;
+              list-style: none;
+              padding: 0px 20px;
+              border-right:solid 1px whitesmoke;
+          }
+        header ul li:last-child{
+              border:none;
+          }
+        header>nav>ul>li>a:hover{
+              color:#999999;
+          }
+        header>nav>ul>li>a{
+          color: whitesmoke;
+          text-decoration: none;
+          }
+        img:hover {
+          transform:scale(1.05);
+          transition: transform.5s;
+          }
+          .float_left{
+              float:left;
+          }
+          .float_right{
+              float:right;
+          }
+          .clearfix::after{ /* float left 이상증상 방지*/
+              content: ""; /* 특정 브라우저 이상증상 해결용 */
+              clear: both; /* float 제거 : 양쪽(둘다) */
+              display: table; /* 특정 브라우저 이상증상 해결용 */
+          }
+          .content>section{
+              padding: 50px;
+          }
+          .content>section>div{
+              width: 1000px;
+              margin: 0px auto;
+          }
+          .content>section:nth-child(1){
+              background-color: black;
+          }
+          .content>section:nth-child(2){
+              background-color: black;
+          }
+          .content>section:nth-child(3){
+              background-color: black;
+          }
+          .content>section:nth-child(4){
+              background-color: #ec5;
+          }
+          .content>section>div>h3{
+              color: white;
+              font-size: 30px;
+          }
+          .content_part{
+              color: whitesmoke;
+              float: left;
+              width: 480px;
+              margin: 10px 10px;
+          }
+          .content-part dl{
+              margin: 0px;
+          }
+          .content_part dd{
+              margin : 0px;
+          }
+          .content_part dt{
+              font-weight: bold;
+              font-size: 19px;
+              margin: 10px 0px;
+          }
+          footer{
+              background-color: #333;
+              padding: 20px;
+              color: #888;
+              font-weight: bold;
+        }
+          footer li{
+              float: left;
+              list-style: none;
+              padding: 0px 10px;
+          }
+          /*footer ul:first-child li*/
+          #footer_left li{
+              border-right:solid 1px gray;
+          }
+          #footer_left li:last-child{
+              border: none;
+          }
+          footer ul{
+              padding: 0px;
+          }
+          .clearfix::after{ /* float left 이상증상 방지*/
+              content: ""; /* 특정 브라우저 이상증상 해결용 */
+              clear: both; /* float 제거 : 양쪽(둘다) */
+              display: table; /* 특정 브라우저 이상증상 해결용 */
+          }
+        </style>
+    </head>
+    <body>
+        <div class="wrap">
+          <header class="clearfix">
+              <!-- div, span 의미없이 공간 분할-->
+              <h3 class="float_left"> <a href="index.html">SEOUL CAFE</a></h3>
+              <nav class="float_right">
+                <ul class="clearfix">
+                  <li><a href="mid.html">MID</a></li>
+                  <li><a href="ne.html">NE</a></li>
+                  <li><a href="se.html">SE</a></li>
+                  <li><a href="nw.html">NW</a></li>
+                  <li><a href="sw.html">SW</a></li>
+                 </ul>
+              </nav>
+          </header>
+            <div class="content">
+                <section>
+                    <div class="clearfix">
+                        <h3>종로구</h3>
+                        <div class="content_part">
+                            <img src="cafe/rosso2.jpg"/>
+                            <dl>
+                                <dt>카페 Rosso</dt>
+                                <dd>
+                                    서울 종로구 삼청로 81-12 <br><br>
+                                    3호선 안국역 2번 출구에서 967m
+                                </dd>
+                            </dl>
+                        </div>
+                        <div class="content_part">
+                            <img src="cafe/rosso1.jpg"/>
+                            <dl>
+                                <dt> ▷ 빈티지한 삼청동 카페</dt>
+                                <dd>
+                                  #빈티지 #삼청동 #핸드드립커피 #커피로스팅 <br><br>
+                                  #경환쓰카페
+                                </dd>
+                            </dl>
+                        </div>
+                    </div>
+                </section>
+                <section>
+                    <div class="clearfix">
+                        <h3>중구 , 용산구</h3>
+                        <div class="content_part">
+                            <img src="cafe/invited1.jpg"/>
+                            <dl>
+                                <dt>INVITED</dt>
+                                <dd>
+                                    서울 용산구 한강대로52길 41 <br><br>
+                                    4,6호선 삼각지역 3번 출구에서 330m
+                                </dd>
+                            </dl>
+                        </div>
+                        <div class="content_part">
+                            <img src="cafe/invited2.jpg"/>
+                            <dl>
+                                <dt> ▷ 공간의 '색'과 '다양한 향'이 있는 카페</dt>
+                                <dd>
+                                    #3층 #단독주택 #공간 #색 <br><br>
+                                    #향 #소리
+                                </dd>
+                            </dl>
+                        </div>
+                    </div>
+                </section>
+            </div>
+
+        </div>
+    </body>
+</html>

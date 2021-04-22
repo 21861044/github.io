@@ -1,0 +1,208 @@
+<!DOCTYPE html><!--21861044김태형-->
+<html>
+    <head>
+        <title>
+            SE
+        </title>
+        <meta charset="utf-8" />
+        <style>
+        *{
+          margin: 0px auto;
+          font-family: 나눔바른고딕;
+        }
+        body{
+              background-color: black;
+          }
+        header{
+              color: whitesmoke;
+          }
+        header h3{
+              margin: 10px 10px;
+          }
+        a{
+          color: whitesmoke;
+          text-decoration: none;
+          }
+        a:hover{
+          color:#999999;
+          }
+        header h3 span{
+              font-size: 10px;
+              color: whitesmoke;
+              font-weight: 100;
+          }
+        header ul{
+              padding: 0px;
+              margin: 10px 0px;
+          }
+
+        header li{
+              float:left;
+              list-style: none;
+              padding: 0px 20px;
+              border-right:solid 1px whitesmoke;
+          }
+        header ul li:last-child{
+              border:none;
+          }
+        header>nav>ul>li>a:hover{
+              color:#999999;
+          }
+        header>nav>ul>li>a{
+          color: whitesmoke;
+          text-decoration: none;
+          }
+        img:hover {
+          transform:scale(1.05);
+          transition: transform.5s;
+          }
+          .float_left{
+              float:left;
+          }
+          .float_right{
+              float:right;
+          }
+          .clearfix::after{ /* float left 이상증상 방지*/
+              content: ""; /* 특정 브라우저 이상증상 해결용 */
+              clear: both; /* float 제거 : 양쪽(둘다) */
+              display: table; /* 특정 브라우저 이상증상 해결용 */
+          }
+          .content>section{
+              padding: 50px;
+          }
+          .content>section>div{
+              width: 1000px;
+              margin: 0px auto;
+          }
+          .content>section:nth-child(1){
+              background-color: black;
+          }
+          .content>section:nth-child(2){
+              background-color: black;
+          }
+          .content>section:nth-child(3){
+              background-color: black;
+          }
+          .content>section:nth-child(4){
+              background-color: #ec5;
+          }
+          .content>section>div>h3{
+              color: white;
+              font-size: 30px;
+          }
+          .content_part{
+              color: whitesmoke;
+              float: left;
+              width: 480px;
+              margin: 10px 10px;
+          }
+          .content-part dl{
+              margin: 0px;
+          }
+          .content_part dd{
+              margin : 0px;
+          }
+          .content_part dt{
+              font-weight: bold;
+              font-size: 19px;
+              margin: 10px 0px;
+          }
+          footer{
+              background-color: #333;
+              padding: 20px;
+              color: #888;
+              font-weight: bold;
+        }
+          footer li{
+              float: left;
+              list-style: none;
+              padding: 0px 10px;
+          }
+          /*footer ul:first-child li*/
+          #footer_left li{
+              border-right:solid 1px gray;
+          }
+          #footer_left li:last-child{
+              border: none;
+          }
+          footer ul{
+              padding: 0px;
+          }
+          .clearfix::after{ /* float left 이상증상 방지*/
+              content: ""; /* 특정 브라우저 이상증상 해결용 */
+              clear: both; /* float 제거 : 양쪽(둘다) */
+              display: table; /* 특정 브라우저 이상증상 해결용 */
+          }
+        </style>
+    </head>
+    <body>
+        <div class="wrap">
+          <header class="clearfix">
+              <!-- div, span 의미없이 공간 분할-->
+              <h3 class="float_left"> <a href="index.html">SEOUL CAFE</a></h3>
+              <nav class="float_right">
+                <ul class="clearfix">
+                  <li><a href="mid.html">MID</a></li>
+                  <li><a href="ne.html">NE</a></li>
+                  <li><a href="se.html">SE</a></li>
+                  <li><a href="nw.html">NW</a></li>
+                  <li><a href="sw.html">SW</a></li>
+                 </ul>
+              </nav>
+          </header>
+            <div class="content">
+                <section>
+                    <div class="clearfix">
+                        <h3>서초구, 강남구</h3>
+                        <div class="content_part">
+                            <img src="cafe/kiss1.jpg"/>
+                            <dl>
+                                <dt>KISSO</dt>
+                                <dd>
+                                    서울 강남구 언주로164길 35-6 1층 <br><br>
+                                    수인분당선 압구정로데오역 5번 출구에서 465m
+                                </dd>
+                            </dl>
+                        </div>
+                        <div class="content_part">
+                            <img src="cafe/kiss2.jpg"/>
+                            <dl>
+                                <dt> ▷ 베리에이션 커피 키쏘파랑헌</dt>
+                                <dd>
+                                  #파랑헌 #키쏘 #도산공원 #원데이클래스 <br><br>
+                                  #갤러리
+                                </dd>
+                            </dl>
+                        </div>
+                    </div>
+                </section>
+                <section>
+                    <div class="clearfix">
+                        <h3>강동구, 송파구</h3>
+                        <div class="content_part">
+                            <img src="cafe/view1.jpg"/>
+                            <dl>
+                                <dt>뷰클랜드</dt>
+                                <dd>
+                                    서울 송파구 백제고분로43길 10 1층 <br><br>
+                                    9호선 송파나루역 1번 출구에서 392m
+                                </dd>
+                            </dl>
+                        </div>
+                        <div class="content_part">
+                            <img src="cafe/view2.jpg"/>
+                            <dl>
+                                <dt> ▷ 피곤하지 않을 정도의 전시와 스웨덴에서 온 커피</dt>
+                                <dd>
+                                    #송파 #쉼 #독서 #복고 <br><br>
+                                    #전시
+                                </dd>
+                            </dl>
+                        </div>
+                    </div>
+                </section>
+            </div>
+
+        </div>
+    </body>
+</html>

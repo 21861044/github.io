@@ -1,0 +1,145 @@
+<!DOCTYPE html><!-- 21861044김태형-->
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>SEOUL CAFE</title>
+    <style>
+    *{
+      margin: 0px auto;
+      font-family: 나눔바른고딕;
+    }
+    body{
+          background-color: black;
+      }
+    header{
+          color: whitesmoke;
+      }
+    header h3{
+          margin: 10px 10px;
+      }
+    a{
+      color: whitesmoke;
+      text-decoration: none;
+      }
+    a:hover{
+      color:#999999;
+      }
+
+    header ul{
+          padding: 0px;
+          margin: 10px 0px;
+      }
+
+    header li{
+          float:left;
+          list-style: none;
+          padding: 0px 20px;
+          border-right:solid 1px whitesmoke;
+      }
+    header ul li:last-child{
+          border:none;
+      }
+    header>nav>ul>li>a:hover{
+          color:#999999;
+      }
+    header>nav>ul>li>a{
+      color: whitesmoke;
+      text-decoration: none;
+      }
+      .float_left{
+          float:left;
+      }
+      .float_right{
+          float:right;
+      }
+      .clearfix::after{ /* float left 이상증상 방지*/
+          content: ""; /* 특정 브라우저 이상증상 해결용 */
+          clear: both; /* float 제거 : 양쪽(둘다) */
+          display: table; /* 특정 브라우저 이상증상 해결용 */
+      }
+      body {
+        background-color: black;
+        background-image: url("background/background.png");
+        background-repeat: no-repeat;
+        background-position: center top;
+        background-size: 100% auto;
+        font-family:"나눔바른고딕";
+      }
+    div {
+      text-align: center;
+    }
+    img:hover {
+    transform:scale(1.05);
+    transition: transform.5s;
+    }
+    #main {
+      position: absolute;
+      top: 100px;
+      left: px;
+      size: auto;
+    }
+    #nw {
+      position: absolute;
+      top: 265px;
+      left: 425px;
+      size: auto;
+    }
+    #mid {
+      position: absolute;
+      top: 350px;
+      left: 635px;
+      size: auto;
+    }
+    #ne {
+      position: absolute;
+      top: 150px;
+      left: 700px;
+      size: auto;
+    }
+    #sw {
+      position: absolute;
+      top: 430px;
+      left: 215px;
+      size: auto;
+    }
+    #se {
+      position: absolute;
+      top: 485px;
+      left: 715px;
+      size: auto;
+    }
+    </style>
+  </head>
+  <body>
+    <div class="wrap">
+        <header class="clearfix">
+            <!-- div, span 의미없이 공간 분할-->
+            <h3 class="float_left"> <a href="index.html">SEOUL CAFE</a> <span></span></h3>
+            <nav class="float_right">
+                <ul class="clearfix">
+                    <li><a href="mid.html">MID</a></li>
+                    <li><a href="ne.html">NE</a></li>
+                    <li><a href="se.html">SE</a></li>
+                    <li><a href="nw.html">NW</a></li>
+                    <li><a href="sw.html">SW</a></li>
+                 </ul>
+            </nav>
+        </header>
+      </div>
+      <div id="nw">
+        <a href="nw.html"><img src="img/wn1.png" alt=""></a>
+      </div>
+      <div id="mid">
+        <a href="mid.html"><img src="img/md1.png" alt=""></a>
+      </div>
+      <div id="ne">
+        <a href="ne.html"><img src="img/en1.png" alt=""></a>
+      </div>
+      <div id="sw">
+        <a href="sw.html"><img src="img/sw1.png" alt=""></a>
+      </div>
+      <div id="se">
+        <a href="se.html"><img src="img/se1.png" alt=""></a>
+      </div>
+  </body>
+</html>
